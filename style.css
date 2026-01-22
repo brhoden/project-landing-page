@@ -1,0 +1,209 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+}
+
+.container-one, .container-two, .container-three, .container-four, .wrapper, .header, ul, .title, .square {
+    display: flex; 
+}
+
+.container-one, .container-two, .container-three, .container-four {
+    flex: 1;
+}
+
+.header, .container-one {
+    background-color: #1F2937;
+
+}
+
+/* .title {
+    width: 100%;
+} */
+
+.mission {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.mission button {
+    margin-top: 80px;
+}
+
+.test {
+    width: 50%;
+    min-width: 50%;
+}
+
+.fimg {
+    max-height: 220px;
+    width: 100%;
+}
+
+.container-one {
+    flex-direction: column;
+    padding: 0 25% 4%;
+}
+
+.container-two {
+    justify-content: center;
+}
+
+.structure {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 70px;
+    
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.logo {
+    color: #f9faf8;    
+    font-size: 24px;
+}
+
+ul {
+    gap: 20px;
+}
+
+a, .message {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.message {
+    margin-bottom: 8px;
+}
+
+.fimg {
+    object-fit: cover;
+}
+
+p {
+    margin: 0;
+}
+
+.statement {
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: 900;
+    
+}
+
+button {
+    padding: 5px 20px;
+    background-color: #3882f6;
+    border-style: none;
+    color: #f9faf8;
+    border-radius: 5px;
+}
+
+.wrapper img {
+    width: 125px;
+    height: 125px;
+    border: 3px solid blue;
+    border-radius: 10%;
+}
+
+.image {
+    max-width: 125px;
+}
+
+.image p {
+    margin: 5px 0px;
+    text-align: center;
+}
+
+.structure > p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 50px 0px;
+}
+
+.wrapper {
+    gap: 75px;
+    justify-content: center;
+}
+
+.container-three {
+    background-color: #e5e7eb;
+    justify-content: center;
+}
+
+.scripture > p:first-child {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.scripture {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 50px  100px;
+}
+
+.quote {
+    align-self: flex-end;
+    font-weight: 700;
+}
+
+.container-four {
+    justify-content: center;
+    align-items: center;
+}
+
+.pitch {
+    background-color: #3882f6;
+    margin: 40px;
+    border-radius: 10px;
+}
+
+.order {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.baby {
+    align-self: center;
+}
+
+.square {
+    padding: 30px 80px;
+    gap: 150px;
+}
+
+.container-four .pitch .square div > p {
+    color: #f9faf8;
+}
+
+
+.container-four .pitch .square div > p:first-of-type {
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer span {
+    color: #e5e7eb;
+}
